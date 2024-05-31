@@ -1,0 +1,77 @@
+<div id="step1">
+        <div class="row">
+            <div class="col-lg-6 mx-auto">
+                <form action="#" id="studentForm" autocomplete="off">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <h3 class="text-white text-center mb-0 text-uppercase">Apply for Certificate</h3>
+                        </div>
+                        <div class="col-lg-12">
+                            <div class="input-group input-gap">
+                                <input type="text" class="form-control" id="stName" name="stName"
+                                    placeholder="Enter Student ID" required>
+                            </div>
+                        </div>
+                        <div class="col-lg-12">
+                            <div class="input-group input-gap">
+                                <button onclick="nextStep()" type="button" href="#" id="submitBtn"
+                                    class="btn btn-primary w-100">Submit</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+<div id="step2" style="display: none;">
+    <div class="row">
+        <div class="col-lg-12 mx-auto">
+            <div class="lineWrapper">
+                    <div class="line">
+                        <div class="innerWrapper">
+                            <div class="lineBox">1</div>
+                            <p>Information Processing</p>
+                        </div>
+                        <div class="innerWrapper">
+                            <div class="lineBox">2</div>
+                            <p>Approved by Management</p>
+                        </div>
+                        <div class="innerWrapper">
+                            <div class="lineBox">3</div>
+                            <p>Certificate Generated</p>
+                        </div>
+                        <div class="innerWrapper">
+                            <div class="lineBox">4</div>
+                            <p>Certificate Issued</p>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>        
+</div>
+
+<div id="step3" style="display: none;">
+    <div class="row">
+            <div class="col-lg-6 mx-auto">
+                <form action="#" id="studentForm" autocomplete="off">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <h3 class="text-white text-center mb-0 text-uppercase">Apply for Certificate</h3>
+                        </div>
+                        <div class="col-lg-12">
+                            <div class="input-group input-gap">
+                                <input type="text" class="form-control" id="stName" name="stName"
+                                    placeholder="Enter OTP">
+                            </div>
+                        </div>
+                        <div class="col-lg-12">
+                            <div class="input-group input-gap">
+                                <button onclick="nextStep()" type="button" href="#" id="submitBtn"
+                                    class="btn btn-primary w-100">Submit</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+</div>
